@@ -1,7 +1,7 @@
 # COVID 19 Data Analysis Project
 
 ## Project Overview
-The COVID-19 Data Analytics Project aims to analyze and visualize COVID-19 data to uncover trends, patterns, and insights about the pandemic's impact. The analysis includes case counts, death rates and vaccination progress across different regions and time periods. The project utilizes various data analytics and visualization techniques to present the findings effectively.
+The COVID-19 Data Analytics Project aims to analyse and visualize COVID-19 data to uncover trends, patterns, and insights about the pandemic's impact. The analysis includes case counts, death rates and vaccination progress across different regions and time periods. The project utilizes various data analytics and visualization techniques to present the findings effectively.
 
 ## Tools Used
 1. Excel
@@ -11,8 +11,8 @@ The COVID-19 Data Analytics Project aims to analyze and visualize COVID-19 data 
 ## Process
 ### Data Collection
 - The COVID-19 data was taken from [Our World In Data](https://ourworldindata.org/covid-deaths) website.
-- The dataset was downloaded in CSV format [file]().
-- The dataset was loaded into excel and the data was divided into 2 datasets [COVID Deaths]() and [COVID Vaccinations]().
+- The dataset was downloaded in CSV format [file](https://github.com/alnmrts02/COVID-19-Data-Analysis/blob/main/owid-covid-data.zip).
+- The dataset was loaded into excel and the data was divided into 2 datasets [COVID Deaths](https://github.com/alnmrts02/COVID-19-Data-Analysis/blob/main/CovidDeaths(CSV).csv) and [COVID Vaccinations](https://github.com/alnmrts02/COVID-19-Data-Analysis/blob/main/CovidVaccinations(CSV).csv).
 - Both the datasets were loaded into Microsoft SQL Server.
 
 ### Exploratory Data Analysis
@@ -77,8 +77,8 @@ GROUP BY cd.continent, cd.location, cd.date, cd.population
 ORDER BY 1,2,3
 ```
 
-### Data Vizualization
+### Data Visualization
 - After Exploratory data analysis we use the findings to graphically represent it.
 - The EDA data is put in multiple excel files and all the NULL values are converted into 0, since NULL value is interpreted as a String in Tableau
-- Tableau Public is used to create a dashboard. [Link]()
+- Tableau Public is used to create a dashboard. [Link](https://public.tableau.com/app/profile/allan.martis/viz/COVID-19Dashboard_17189138733140/Dashboard1)
 
